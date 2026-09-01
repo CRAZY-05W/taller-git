@@ -9,7 +9,7 @@ export class User {
   name!: string;
 
   @Column({ type: 'varchar', length: 255, unique: true })
-  email!: string;
+  emailes!: string;
 
   @Column({ type: 'varchar', length: 255 })
   password!: string;
