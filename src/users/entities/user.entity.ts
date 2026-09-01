@@ -16,4 +16,7 @@ export class User {
 
   @Column({ type: 'varchar', length: 20, nullable: true })
   phone!: string;
+
+  @Column({ type: 'varchar', length: 20, nullable: true })
+  quitian!: string;
 }
