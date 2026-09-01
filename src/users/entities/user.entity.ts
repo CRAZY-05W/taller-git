@@ -18,5 +18,5 @@ export class User {
   phone!: string;
 
   @Column({ type: 'varchar', length: 20, nullable: true })
-  test!: string;
+  quitian!: string;
 }
